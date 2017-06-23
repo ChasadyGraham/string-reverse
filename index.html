@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>string-reverse</title>
+	<title>string-chang</title>
 <!--link tab dhort hand for css-->
 	<link rel="stylesheet" href="style.css">
 	</head>
@@ -11,6 +11,11 @@
 	    <div>
       <input type="text" id="textInput" />
     </div>  
+	<div>
+    <input type="radio" name="method" value="Reverse" checked> Reverse <!--checked for the default one to be auto checked -->
+		  <input type="radio" name="method" value="Random"> Random
+		  <input type="radio" name="method" value="Alphabetize"> Alphabetize
+  </div>
 <!---a button-->
     <div>
       <input type="button" id="doAction" value="Reverse Word" />
@@ -19,7 +24,7 @@
     <div id="display">
     
     </div>
-
-<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>"
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
